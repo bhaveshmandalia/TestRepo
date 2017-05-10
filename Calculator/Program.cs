@@ -13,10 +13,10 @@ namespace Calculator
             IBusinessLogic objLogic = new BusinessLogic();
             int output = 0, number1 = 0, number2 = 0;
             Console.WriteLine("Please choose one option :");
-            Console.WriteLine("1. Addition :");
-            Console.WriteLine("2. Subtraction :");
-            Console.WriteLine("3. Multiplication :");
-            Console.WriteLine("4. Division :");
+            Console.WriteLine("1. Addition");
+            Console.WriteLine("2. Subtraction");
+            Console.WriteLine("3. Multiplication");
+            Console.WriteLine("4. Division");
 
             var operation = Console.ReadLine();
 
